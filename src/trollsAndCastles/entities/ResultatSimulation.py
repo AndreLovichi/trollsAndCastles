@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*-coding:utf-8 -*
 
-from entities.CoupInvalideDroite import CoupInvalideDroite
-from entities.CoupInvalideGauche import CoupInvalideGauche
-from entities.CoupInvalideSimultane import CoupInvalideSimultane
+from .CoupInvalideDroite import CoupInvalideDroite
+from .CoupInvalideGauche import CoupInvalideGauche
+from .CoupInvalideSimultane import CoupInvalideSimultane
 
 class ResultatSimulation:
     """Resultat d'une simulation entre deux strategies

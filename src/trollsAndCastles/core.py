@@ -3,7 +3,7 @@
 
 import traceback
 
-from entities import *
+from .entities import *
 
 def jouerPartie(nombreCases, stockInitial, strategie1, strategie2, partiesPrecedentes = [], partiesPrecedentesMiroir = [], affichageTexte = True):
     """Jouer une partie entre deux strategies

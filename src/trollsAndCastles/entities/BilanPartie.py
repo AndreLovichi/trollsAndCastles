@@ -21,4 +21,4 @@ class BilanPartie:
 
     def __repr__(self):
         """Fonction utilisee pour l'affichage"""
-        print(self.partie)
+        return self.partie.__repr__()

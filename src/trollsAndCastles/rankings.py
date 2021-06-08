@@ -5,8 +5,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import time
 
-from entities import *
-from core import jouerPlusieursParties
+from .entities import *
+from .core import jouerPlusieursParties
 
 def calculerClassement(listeStrategies, nombreCases, stockInitial):
     """Calculer le classement pour une liste de strategies
