@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*-coding:utf-8 -*
 
-from trollsEtChateaux.entities import *
 import traceback
+
+from entities import *
 
 def jouerPartie(nombreCases, stockInitial, strategie1, strategie2, partiesPrecedentes = [], partiesPrecedentesMiroir = [], affichageTexte = True):
     """Jouer une partie entre deux strategies

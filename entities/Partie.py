@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*-coding:utf-8 -*
 
-from trollsEtChateaux.entities.CoupInvalideDroite import CoupInvalideDroite
-from trollsEtChateaux.entities.CoupInvalideGauche import CoupInvalideGauche
-from trollsEtChateaux.entities.CoupInvalideSimultane import CoupInvalideSimultane
+from entities.CoupInvalideDroite import CoupInvalideDroite
+from entities.CoupInvalideGauche import CoupInvalideGauche
+from entities.CoupInvalideSimultane import CoupInvalideSimultane
 
 class Partie():
     """Partie de Trolls et Chateaux"""

@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*-coding:utf-8 -*
+
 class Classement:
     """Classement obtenu par une strategie sur une configuration"""
 

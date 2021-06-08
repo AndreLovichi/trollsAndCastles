@@ -2,8 +2,9 @@
 # -*-coding:utf-8 -*
 
 import json
-from trollsEtChateaux import *
-from trollsEtChateaux.rankings import *
+
+from entities import *
+from rankings import *
 
 class StrategyEncoder(json.JSONEncoder):
     """Encodeur JSON pour la classe Strategie"""
