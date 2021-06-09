@@ -103,13 +103,12 @@ def jouerPartie(nombreCases, stockInitial, strategie1, strategie2, partiesPreced
 
     if(affichageTexte):
         print(partie.LigneResume())      
-        print(message)
                     
     return BilanPartie(gagnant, message, exception, partie)
 
 
 
-def jouerPlusieursParties(nombreCases, stockInitial, strategie1, strategie2, nombreDeParties = 1000, afficherResultats = True, afficherParties = False):
+def jouerPlusieursParties(nombreCases, stockInitial, strategie1, strategie2, nombreDeParties = 1000, afficherResultats = False, afficherParties = False):
     """Jouer plusieurs parties entre deux strategies
     - nombreCases : Nombre de cases
     - stockInitial : Nombre initial de pierres
